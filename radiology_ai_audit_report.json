@@ -1,0 +1,20 @@
+{
+  "examination_type": "Chest Radiograph Posteroanterior (PA) View",
+  "patient_case_id": "MCUCXR_0001_0",
+  "image_resolution": "4892x4020",
+  "neural_architecture": "Lightweight Classical U-Net (DoubleConv Encoder-Decoder with Skip Connections)",
+  "preprocessing_pipeline": "CLAHE (ClipLimit=2.0, Grid=8x8) + Bilinear ImageNet Normalization",
+  "quantitative_biometrics": {
+    "segmented_lung_area_pixels": 4209174,
+    "estimated_anatomical_lung_area_cm2": 1289.1,
+    "thoracic_cavity_occupancy_pct": 21.4,
+    "estimated_cardiothoracic_ratio_ctr": 0.44,
+    "ctr_clinical_interpretation": "Normal Cardiac Silhouette (< 0.50)"
+  },
+  "segmentation_validation_metrics": {
+    "dice_similarity_coefficient": 0.9172,
+    "intersection_over_union_iou": 0.8471,
+    "inference_latency_ms": 70.02
+  },
+  "screening_disposition": "Diagnostic Quality Verified. Clear alveolar demarcation consistent with clinical guidelines."
+}

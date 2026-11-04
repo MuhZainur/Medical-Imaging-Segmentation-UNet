@@ -1,0 +1,7 @@
+torch
+torchvision
+segmentation_models_pytorch
+opencv-python
+albumentations
+matplotlib
+numpy
